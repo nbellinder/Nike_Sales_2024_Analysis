@@ -1,5 +1,7 @@
 # Nike_Sales_2024_Analysis
-Project Background
+
+# Project Background
+
 Nike is a global sportswear brand founded in 1964. They sell a wide variety of athletic apparel and accessories, but are most recognized for their shoes. They have offerings for at every price level, including budget, mid-range, and premium items. 
 The company has just released their 2024 data on sales, product offerings, and price tiers. This project thoroughly analyzes and synthesizes this data to uncover critical insights that will improve Nike’s online premium product sales.
 Insights and recommendations are provided on the following key areas:
