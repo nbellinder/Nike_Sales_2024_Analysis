@@ -14,7 +14,7 @@ The company has just released their 2024 data on sales, product offerings, and p
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 Targeted SQL queries regarding various business questions can be found here [link].
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Tableau dashboard used to report and explore sales trends can be found here [(https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes)].
 
 # Data Structure & Initial Checks
 
