@@ -20,7 +20,7 @@ SELECT
 	ROUND(SUM(Revenue_Online_USD) / CAST(SUM(Revenue_USD) AS float) *100,1) Precentage_Revenue_Online
 FROM Online_Sales
 GROUP BY Region
-ORDER BY Precentage_Revenue_Online DESC
+ORDER BY Precentage_Revenue_Online DESC;
 
 -- WE WANT TO EXAMINE ONLINE SALES DATA BY MONTH TO FIND OUR WEAKEST MONTHS
 
@@ -44,7 +44,7 @@ SELECT
 	ROUND(SUM(Revenue_Online_USD) / CAST(SUM(Revenue_USD) AS float) *100,1) AS Precentage_Revenue_Online
 FROM Online_Sales
 GROUP BY Month
-ORDER BY Precentage_Revenue_Online DESC
+ORDER BY Precentage_Revenue_Online DESC;
 
 -- WE WANT TO EXAMINE ONLINE SALES TRENDS BY SUB CATEGORY TO FIND PRODUCTS WITH FAVORABLE AND UNFAVORABLE ONLINE SALES
 
@@ -68,7 +68,7 @@ SELECT
 	ROUND(SUM(Revenue_Online_USD) / CAST(SUM(Revenue_USD) AS float) *100,1) Precentage_Revenue_Online
 FROM Online_Sales
 GROUP BY Sub_Category
-ORDER BY Precentage_Revenue_Online DESC
+ORDER BY Precentage_Revenue_Online DESC;
 
 -- WE HAVE IDENTIFIED THE FOOTBALL SUB CATEGORY AS A WEAKPOINT SO NOW WE CAN EXPAND ON THE PRODUCT LINES TO FIND OUT WHICH LINES CAN BE IMPROVED
 WITH Online_Sales AS
@@ -87,7 +87,7 @@ SELECT
 	Revenue_Online_USD,
 	ROUND(Revenue_Online_USD / CAST(Revenue_USD AS float),2) *100 AS Precentage_Revenue_Online
 FROM Online_Sales
-ORDER BY Revenue_USD DESC
+ORDER BY Revenue_USD DESC;
 
 -- KNOWING APRIL IS A WEAK MONTH, WE CAN BREAK IT OUT BY PRODUCT LINES ADD COMPARE TO OUR YEARLY ONLINE SALES RATE TO IDENTIFY IMPROVEMENT AREAS
 
@@ -112,4 +112,4 @@ SELECT
 	Yearly_Precentage_Revenue_Online
 FROM Online_Sales
 GROUP BY Product_Line
-ORDER BY Total_Revenue DESC
+ORDER BY Total_Revenue DESC;
