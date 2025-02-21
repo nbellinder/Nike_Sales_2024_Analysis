@@ -1,0 +1,115 @@
+-- WE WANT TO QUERY THE ONLINE SALES PERCENTAGE AND TOTAL ONLINE REVENUE FOR PREMIUM PRODUCTS BY REGION
+
+WITH Online_Sales AS
+(
+SELECT 
+	*,
+	CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) AS Revenue_Online_USD,
+	CAST(Units_Sold * Online_Sales_Percentage * .01 AS int)AS Units_Sold_Online
+FROM nike_sales_2024
+WHERE Price_Tier = 'Premium'
+)
+SELECT
+	Region,
+	SUM(Revenue_USD) AS Total_Revenue,
+	SUM(Revenue_Online_USD) AS Total_Online_Revenue,
+	CAST(SUM(Revenue_Online_USD) / SUM(Units_Sold_Online) AS int) AS Avg_Online_Purchase_Price,
+	SUM(Units_Sold) AS Total_Units_Sold,
+	SUM(Units_Sold_Online) AS Total_Units_Sold_Online,
+	ROUND(SUM(Units_Sold_Online) / CAST(SUM(Units_Sold) AS float) *100,1) AS Precentage_Units_Sold_Online,
+	ROUND(SUM(Revenue_Online_USD) / CAST(SUM(Revenue_USD) AS float) *100,1) Precentage_Revenue_Online
+FROM Online_Sales
+GROUP BY Region
+ORDER BY Precentage_Revenue_Online DESC
+
+-- WE WANT TO EXAMINE ONLINE SALES DATA BY MONTH TO FIND OUR WEAKEST MONTHS
+
+WITH Online_Sales AS
+(
+SELECT 
+	*,
+	CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) AS Revenue_Online_USD,
+	CAST(Units_Sold * Online_Sales_Percentage * .01 AS int)AS Units_Sold_Online
+FROM nike_sales_2024
+WHERE Price_Tier = 'Premium'
+)
+SELECT
+	Month,
+	SUM(Revenue_USD) AS Total_Revenue,
+	SUM(Revenue_Online_USD) AS Total_Online_Revenue,
+	CAST(SUM(Revenue_Online_USD) / SUM(Units_Sold_Online) AS int) AS Avg_Online_Purchase_Price,
+	SUM(Units_Sold) AS Total_Units_Sold,
+	SUM(Units_Sold_Online) AS Total_Units_Sold_Online,
+	ROUND(SUM(Units_Sold_Online) / CAST(SUM(Units_Sold) AS float) *100,1) AS Precentage_Units_Sold_Online,
+	ROUND(SUM(Revenue_Online_USD) / CAST(SUM(Revenue_USD) AS float) *100,1) AS Precentage_Revenue_Online
+FROM Online_Sales
+GROUP BY Month
+ORDER BY Precentage_Revenue_Online DESC
+
+-- WE WANT TO EXAMINE ONLINE SALES TRENDS BY SUB CATEGORY TO FIND PRODUCTS WITH FAVORABLE AND UNFAVORABLE ONLINE SALES
+
+WITH Online_Sales AS
+(
+SELECT 
+	*,
+	CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) AS Revenue_Online_USD,
+	CAST(Units_Sold * Online_Sales_Percentage * .01 AS int)AS Units_Sold_Online
+FROM nike_sales_2024
+WHERE Price_Tier = 'Premium'
+)
+SELECT
+	Sub_Category,
+	SUM(Revenue_USD) AS Total_Revenue,
+	SUM(Revenue_Online_USD) AS Total_Online_Revenue,
+	CAST(SUM(Revenue_Online_USD) / SUM(Units_Sold_Online) AS int) AS Avg_Online_Purchase_Price,
+	SUM(Units_Sold) AS Total_Units_Sold,
+	SUM(Units_Sold_Online) AS Total_Units_Sold_Online,
+	ROUND(SUM(Units_Sold_Online) / CAST(SUM(Units_Sold) AS float) *100,1) AS Precentage_Units_Sold_Online,
+	ROUND(SUM(Revenue_Online_USD) / CAST(SUM(Revenue_USD) AS float) *100,1) Precentage_Revenue_Online
+FROM Online_Sales
+GROUP BY Sub_Category
+ORDER BY Precentage_Revenue_Online DESC
+
+-- WE HAVE IDENTIFIED THE FOOTBALL SUB CATEGORY AS A WEAKPOINT SO NOW WE CAN EXPAND ON THE PRODUCT LINES TO FIND OUT WHICH LINES CAN BE IMPROVED
+WITH Online_Sales AS
+(
+SELECT 
+	*,
+	CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) AS Revenue_Online_USD,
+	CAST(Units_Sold * Online_Sales_Percentage * .01 AS int)AS Units_Sold_Online
+FROM nike_sales_2024
+WHERE Price_Tier = 'Premium' AND Sub_Category = 'Football'
+)
+SELECT
+	Product_Line,
+	Retail_Price,
+	Revenue_USD,
+	Revenue_Online_USD,
+	ROUND(Revenue_Online_USD / CAST(Revenue_USD AS float),2) *100 AS Precentage_Revenue_Online
+FROM Online_Sales
+ORDER BY Revenue_USD DESC
+
+-- KNOWING APRIL IS A WEAK MONTH, WE CAN BREAK IT OUT BY PRODUCT LINES ADD COMPARE TO OUR YEARLY ONLINE SALES RATE TO IDENTIFY IMPROVEMENT AREAS
+
+WITH Online_Sales AS
+(
+SELECT 
+	*,
+	CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) AS Revenue_Online_USD,
+	CAST(Units_Sold * Online_Sales_Percentage * .01 AS int)AS Units_Sold_Online,
+	ROUND(
+		CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) / CAST(Revenue_USD AS float),2) *100 AS Yearly_Precentage_Revenue_Online
+FROM nike_sales_2024
+WHERE Price_Tier = 'Premium' AND Month = 'April'
+)
+SELECT
+	Month,
+	Sub_Category,
+	Product_Line,
+	SUM(Revenue_USD) AS Total_Revenue,
+	SUM(Revenue_Online_USD) AS Total_Revenue_Online,
+	ROUND(SUM(Revenue_Online_USD) / CAST(SUM(Revenue_USD) AS float),2) *100	 AS Precentage_Revenue_Online,
+	Yearly_Precentage_Revenue_Online
+FROM Online_Sales
+GROUP BY Product_Line
+ORDER BY Total_Revenue DESC
