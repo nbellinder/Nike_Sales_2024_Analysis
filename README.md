@@ -27,24 +27,41 @@ Overview of Findings
 
 Nike experienced peak 2024 premium product sales in the Spring generating $447,431,750 in revenue, 27.1% of premium product revenue for the year.
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
-Insights Deep Dive
+
+# Insights Deep Dive
 Category 1:
+
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 [Visualization specific to category 1]
+
 Category 2:
+
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 [Visualization specific to category 2]
 Category 3:
+
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 •	Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
 [Visualization specific to category 3]
 Category 4:
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
