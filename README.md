@@ -6,11 +6,11 @@ Nike is a global sportswear brand founded in 1964. They sell a wide variety of a
 The company has just released their 2024 data on sales, product offerings, and price tiers. This project thoroughly analyzes and synthesizes this data to uncover critical insights that will improve Nike’s online premium product sales.
 
 ## Insights and recommendations are provided on the following key areas:
-### •	Monthly Sales: An evaluation of premium sales revenue and volume by season. 
+•	Monthly Sales: An evaluation of premium sales revenue and volume by season. 
 
-### •	Regional Comparisons: An assessment of top performing premium offerings by region.
+•	Regional Comparisons: An assessment of top performing premium offerings by region.
 
-### •	Product Offering Performance: An analysis of top premium product line performances to reduce potential redundant offerings and improve sales efficiency. 
+•	Product Offering Performance: An analysis of top premium product line performances to reduce potential redundant offerings and improve sales efficiency. 
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
