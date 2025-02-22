@@ -29,8 +29,7 @@ Online premium product sales are worst in April, with only 64.7% of revenue comi
 
 Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes).
 
-![image](https://github.com/user-attachments/assets/c6b8d0a3-f0e8-4877-8d31-a08cbe7c730d)
-
+![image](https://github.com/user-attachments/assets/b5bc6701-ddab-49c1-890f-9a1b4af3b8a8)
 
 ## Insights Deep Dive
 ### Category 1:
