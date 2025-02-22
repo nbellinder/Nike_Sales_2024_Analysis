@@ -3,20 +3,20 @@
 ## Project Background
 
 Nike is a global sportswear brand founded in 1964. They sell a wide variety of athletic apparel and accessories, but are most recognized for their shoes. They have offerings for at every price level, including budget, mid-range, and premium items. 
-The company has just released their 2024 data on sales, product offerings, and price tiers. This project thoroughly analyzes and synthesizes this data to uncover critical insights that will improve Nike’s online premium product sales.
+The company has just released their 2024 data on sales, product offerings, and price tiers. I have been approached by Nike's Sales and Marketing teams to thoroughly analyzes and synthesizes this data to uncover critical insights that will improve Nike’s online premium product sales to meet a goal of 70% Percentage of Revenue Online (PRO).
 
 ## Insights and recommendations are provided on the following key areas:
-•	Monthly Sales: An evaluation of premium sales revenue and volume by season. 
+•	**Monthly Sales**: An evaluation of premium sales revenue and volume by month. 
 
-•	Regional Comparisons: An assessment of top performing premium offerings by region.
+•	**Regional Comparisons**: An assessment of premium online sales performance by region.
 
-•	Product Offering Performance: An analysis of top premium product line performances to reduce potential redundant offerings and improve sales efficiency. 
+•	**Online Product Offering Performance**: An analysis of premium products online sales percentages and Percentage of Revenue Online (PRO). 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here [(https://github.com/nbellinder/Nike_Sales_2024_Analysis/blob/main/Data%20Exploration)].
 
-Targeted SQL queries regarding various business questions can be found here [link].
+Targeted SQL queries regarding various business questions can be found here [(https://github.com/nbellinder/Nike_Sales_2024_Analysis/blob/main/Sales%20Analysis)].
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [(https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes)].
+An interactive Tableau dashboard used to report and explore sales trends can be found here [Link][(https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes)].
 
 ## Data Structure & Initial Checks
 
@@ -25,7 +25,10 @@ Executive Summary
 ## 
 Overview of Findings
 
-Nike experienced peak 2024 premium product sales in the Spring generating $447,431,750 in revenue, 27.1% of premium product revenue for the year.
+Online premium product sales are worst in April, with only 64.7% of revenue coming from online sales and 69% of product lines failing to meet our 70% PRO goal. Our weakest overall sub category for premium online sales is Football with only a 64% PRO and 54% of product lines failing to meet our 70% PRO goal. The following sections will explore additional insights and highlight key opportunity areas for improvement with individual product lines.
+
+Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
+
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 ## Insights Deep Dive
