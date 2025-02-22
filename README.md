@@ -12,11 +12,11 @@ The company has just released their 2024 data on sales, product offerings, and p
 
 •	**Online Product Offering Performance**: An analysis of premium products online sales percentages and Percentage of Revenue Online (PRO). 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [(https://github.com/nbellinder/Nike_Sales_2024_Analysis/blob/main/Data%20Exploration)].
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/nbellinder/Nike_Sales_2024_Analysis/blob/main/Data%20Exploration).
 
-Targeted SQL queries regarding various business questions can be found here [(https://github.com/nbellinder/Nike_Sales_2024_Analysis/blob/main/Sales%20Analysis)].
+Targeted SQL queries regarding various business questions can be found [here](https://github.com/nbellinder/Nike_Sales_2024_Analysis/blob/main/Sales%20Analysis).
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [Link][(https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes)].
+An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes).
 
 ## Data Structure & Initial Checks
 
@@ -27,7 +27,7 @@ Overview of Findings
 
 Online premium product sales are worst in April, with only 64.7% of revenue coming from online sales and 69% of product lines failing to meet our 70% PRO goal. Our weakest overall sub category for premium online sales is Football with only a 64% PRO and 54% of product lines failing to meet our 70% PRO goal. The following sections will explore additional insights and highlight key opportunity areas for improvement with individual product lines.
 
-Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
+Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes).
 
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
