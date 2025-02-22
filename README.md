@@ -18,18 +18,18 @@ Targeted SQL queries regarding various business questions can be found here [lin
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [(https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes)].
 
-# Data Structure & Initial Checks
+## Data Structure & Initial Checks
 
 The companies sales database structure as seen below consists of one table: nike_sales_2024 with a total row count of 1000 records. 
 Executive Summary
-# 
+## 
 Overview of Findings
 
 Nike experienced peak 2024 premium product sales in the Spring generating $447,431,750 in revenue, 27.1% of premium product revenue for the year.
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
-# Insights Deep Dive
-Category 1:
+## Insights Deep Dive
+### Category 1:
 
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
@@ -41,7 +41,7 @@ Category 1:
 
 [Visualization specific to category 1]
 
-Category 2:
+### Category 2:
 
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
@@ -53,7 +53,7 @@ Category 2:
 
 [Visualization specific to category 2]
 
-Category 3:
+### Category 3:
 
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
@@ -65,7 +65,7 @@ Category 3:
 
 [Visualization specific to category 3]
 
-Category 4:
+### Category 4:
 
 •	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
@@ -77,7 +77,7 @@ Category 4:
 
 [Visualization specific to category 4]
 
-# Recommendations:
+## Recommendations:
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following:
 
@@ -91,7 +91,7 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 •	Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
 
-# Assumptions and Caveats:
+## Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
