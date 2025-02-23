@@ -32,17 +32,18 @@ Below is the overview page from the Tableau dashboard and more examples are incl
 ![image](https://github.com/user-attachments/assets/b5bc6701-ddab-49c1-890f-9a1b4af3b8a8)
 
 ## Insights Deep Dive
-### Category 1:
+### Monthly Sales:
 
-•	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	Despite having the worst monthly PRO in 2024, April had the second highest Average Online Purchase Price for all of 2024 at $190. This can be attributed to a spike in online sales of accessory Bags carrying an Average Online Sale Price of $244 for April. The yearly PRO on Bags was 54% in 2024 but jumped to 62% in April. It was also our greatest revenue driver in April brining in $26.7 million in online sales for the month, nearly double our second most popular product line for the month.
 
-•	Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	A large factor in poor online sales for April 2024 lies, predictably, in Rain Jackets. The PRO of Rain Jackets fell from a yearly average of 83% to 69% in April. With April being a typically rainy month,  it is hard to bear the convenience of purchasing a Rain Jacket in person when the need arises.
 
-•	Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	Overall, April was a tough month for online sales as Rain Jackets, Mercurial, Compression Wear, Accessory Bags, and Hats all fell short of our 70% PRO goal. Additionally, Backpacks, Therma-Fit tops, Vapor Cricket, Air Jordan, Tech Fleese tops, and Windrunners all failed to eclipse 60% PRO and represent significant areas for improvement.
 
-•	Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	While April was our worst month by PRO, August, September, October, and November all fell short of our 70% PRO goal as well. This shows a glaring seasonal weakness that can be addressed as PRO drops from 73.2% in July to 66.5% in August and only weakly crosses our PRO goal to 70.3% by December. 
 
-[Visualization specific to category 1]
+![image](https://github.com/user-attachments/assets/2d9b5ea4-c078-4e0f-8bf4-b66f2c15bf9b)
+
 
 ### Category 2:
 
