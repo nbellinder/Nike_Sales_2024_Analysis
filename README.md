@@ -68,7 +68,8 @@ Below is the overview page from the Tableau dashboard and more examples are incl
 
 •	The Football sub category leaves much to be desired. Despite having the third highest Average Online Purchase Price of $189, the remaining online sales number are abysmal. Football ranks dead last in PRO at 64%, Total Online Revenue  just under $42 million, and only 221,046 Total Units Sold Online. This is only 63% of the second lowest selling Total Units Sold Online. This is alrgely driven by two indivdual product lines. The $210 Phantom Vision and $230 Mercurial. These two lines represent nearly 30% of Total Online Revenue for football but have a 51% and 62% PRO respectivley. 
 
-[Visualization specific to category 3]
+![image](https://github.com/user-attachments/assets/a9c3d339-f6c3-4b02-815d-4b3c0fedb10f)
+
 
 
 ## Recommendations:
