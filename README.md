@@ -58,33 +58,22 @@ Below is the overview page from the Tableau dashboard and more examples are incl
 ![image](https://github.com/user-attachments/assets/bbfaa858-68da-4127-9d5e-278c845de24b)
 
 
-### Category 3:
+### Online Product Offering Performance:
 
-•	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	Cricket is our strongest product sub category by PRO with 74.8%. However, out of 11 categories, it is the 7th highest by Total Units Sold Online and 6th by Total_Online_Revenue. While the category may be a juggernaut in PRO, it lacks overall volume.
 
-•	Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	Acessories and Outerwear represent our strongest overall categories. They boast a 71.9% and 69.5% PRO while having also having the two highest Total Online Revenues at $189,817,968 and $187,340,930. Unsuprisingly, the volume for both products are the highest among categories with 1,126,725 and 964,819. 
 
-•	Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	The third best selling category buy Total Online Revenue, Socks, boasts strong sales with $160 million in 2024 and has similarly strong Total Units Sold Online. However, Socks represent the second lowest PRO at only 67.2%. There are 35 individual product lines within the Socks subcategory. Just under 43% of the lines do not meet our PRO goal and nearly 26% do nto break a PRO of 60%. The two top selling Sock product lines are the $300 Performance Socks and the $290 Crew Socks, they combine for nearly 10% of the Total Units Sold Online for Socks. Despite this, they have a PRO of 63% and 64% respectively. Performance Socks seem to have a pricing sweet spot for PRO in the $180-280 range as there are 7 products in this range and all have a PRO over 70% including 3 with a PRO over 80%.
 
-•	Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+•	The Football sub category leaves much to be desired. Despite having the third highest Average Online Purchase Price of $189, the remaining online sales number are abysmal. Football ranks dead last in PRO at 64%, Total Online Revenue  just under $42 million, and only 221,046 Total Units Sold Online. This is only 63% of the second lowest selling Total Units Sold Online. This is alrgely driven by two indivdual product lines. The $210 Phantom Vision and $230 Mercurial. These two lines represent nearly 30% of Total Online Revenue for football but have a 51% and 62% PRO respectivley. 
 
 [Visualization specific to category 3]
 
-### Category 4:
-
-•	Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-•	Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-•	Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-•	Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
 
 ## Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following:
+Based on the insights and findings above, we would recommend the Marketing and Sales teams to consider the following:
 
 •	Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
 
