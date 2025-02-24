@@ -21,6 +21,9 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 ## Data Structure & Initial Checks
 
 The companies sales database structure as seen below consists of one table: nike_sales_2024 with a total row count of 1000 records. 
+
+![image](https://github.com/user-attachments/assets/b57c065e-4733-44b8-a0b1-56af59ca98bf)
+
 Executive Summary
 ## 
 Overview of Findings
