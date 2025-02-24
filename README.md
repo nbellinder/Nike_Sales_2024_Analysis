@@ -75,22 +75,21 @@ Below is the overview page from the Tableau dashboard and more examples are incl
 
 Based on the insights and findings above, we would recommend the Marketing and Sales teams to consider the following:
 
-•	Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+•	With the PRO drop in July (to 66.5%) and extended slump through November it may be worth trying a few online seasonal sales or deeper online discounts on seasonal items to boost PRO.
 
-•	Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+•	With the strength of the Chinese market and pure volume, a targeted ad campaign encouraging online sales to boost PRO from 68% to our goal of 70% would be very lucrative.
 
-•	Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+•	Re-evlauate the current marketing around online Football sub category sales, as the category is our weakest by every metric, beginning with the $210 Phantom Vision and $230 Mercurial. A boost in their PRO would help the category immensely as the two represent nearly 30% of all online Football product sales.
 
-•	Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+•	Consider a realignment of our Sock product line pricing, specifically Performance Socks. Our $300 Performance Socks are by far most popular, but may see a significant increase in PRO at the $280 price point given our current sales trends. This could be achieved either through a full realingement of Performance Sock pricing or an exclusive online sale to create a perception of greater value.
 
-•	Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
+•	Consider a greater marketing presence in Southeast Asian and India, the two regions have exceptional PRO performance but lack the total volume to make them strong sales regions at present.
 
 ## Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-•	Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+•	There is no indicative differentiation of products beyond the Product Line level. Because of this, Product Lines of the same Retail Price were assumed to be the same individual product.
 
-•	Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+•	Not every Product Line or Sub Category had sales data for every Month and Region. This was assumed to not be incompelete data but product rotations and offering changes. 
 
-•	Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
