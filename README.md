@@ -1,4 +1,4 @@
-# Nike_Sales_2024_Analysis
+# Nike 2024 Premium Product Online Sales Analysis
 
 ## Project Background
 
