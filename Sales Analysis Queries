@@ -70,7 +70,7 @@ SELECT *
 FROM Online_Sales_Expanded
 ORDER BY Percentage_Revenue_Online ASC;
 
--- BAGS, SOCKS, AND BASKETBALL ALL ALSO HAVE ONLINE REVENUE PERCENTAGES BELOW 70% SO WE WILL LOOK DEEPER AT THE NUMBERS
+-- OUR SOCK PRODUCT LINES ALSO REPRESENT AN AREA WHERE WE CAN IMPROVE SIGNIFICANTLY. 
 WITH Online_Sales AS
 (
 SELECT 
@@ -78,7 +78,33 @@ SELECT
 	CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) AS Revenue_Online_USD,
 	CAST(Units_Sold * Online_Sales_Percentage * .01 AS int)AS Units_Sold_Online
 FROM nike_sales_2024
-WHERE Price_Tier = 'Premium' AND (Sub_Category = 'Bags' OR Sub_Category = 'Socks' OR Sub_Category = 'Basketball')
+WHERE Price_Tier = 'Premium' AND Sub_Category = 'Socks'
+GROUP BY Product_Line, Retail_Price
+),
+Online_Sales_Expanded AS 
+(
+SELECT
+	Product_Line,
+	Retail_Price,
+	Revenue_USD,
+	Revenue_Online_USD,
+	ROUND(Revenue_Online_USD / CAST(Revenue_USD AS float),2) *100 AS Percentage_Revenue_Online
+FROM Online_Sales
+)
+SELECT *
+FROM Online_Sales_Expanded
+WHERE Product_Line = 'Performance Socks'
+ORDER BY Retail_Price ASC;
+
+-- BAGS AND BASKETBALL ALL ALSO HAVE ONLINE REVENUE PERCENTAGES BELOW 70% SO WE WILL LOOK DEEPER AT THE NUMBERS
+WITH Online_Sales AS
+(
+SELECT 
+	*,
+	CAST(Revenue_USD * Online_Sales_Percentage * .01 AS int) AS Revenue_Online_USD,
+	CAST(Units_Sold * Online_Sales_Percentage * .01 AS int)AS Units_Sold_Online
+FROM nike_sales_2024
+WHERE Price_Tier = 'Premium' AND (Sub_Category = 'Bags' OR Sub_Category = 'Basketball')
 ),
 Online_Sales_Expanded AS
 (
