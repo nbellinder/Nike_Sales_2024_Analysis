@@ -79,7 +79,7 @@ Based on the insights and findings above, we would recommend the Marketing and S
 
 •	With the strength of the Chinese market and pure volume, a targeted ad campaign encouraging online sales to boost PRO from 68% to our goal of 70% would be very lucrative.
 
-•	Re-evaluate the current marketing around online Football sub category sales, as the category is our weakest by every metric, beginning with the $210 Phantom Vision and $230 Mercurial. A boost in their PRO would help the category immensely as the two represent nearly 30% of all online Football product sales.
+•	Re-evaluate the current marketing around online Football sub category sales, as the category is our weakest by every metric, beginning with the $210 Phantom Vision and $230 Mercurial. A boost in their PRO would help the category immensely as the two represent nearly 30% of all online Football product sales. Additionally, a re-evaluation of PRO goals for Football products may be in order as there is an understandable consumer bias to purchase these products in a physcial store where the products can be thoroughly examined and tried on.
 
 •	Consider a realignment of our Sock product line pricing, specifically Performance Socks. Our $300 Performance Socks are by far most popular, but may see a significant increase in PRO at the $280 price point given our current sales trends. This could be achieved either through a full realingement of Performance Sock pricing or an exclusive online sale to create a perception of greater value.
 
