@@ -25,8 +25,6 @@ The company's sales database structure as seen below consists of one table: nike
 ![image](https://github.com/user-attachments/assets/b57c065e-4733-44b8-a0b1-56af59ca98bf)
 
 ## Executive Summary
-Overview of Findings
-
 Online premium product sales are worst in April, with only 64.7% of revenue coming from online sales and 69% of product lines failing to meet our 70% PRO goal. Our weakest overall sub category for premium online sales is Football with only a 64% PRO and 54% of product lines failing to meet our 70% PRO goal. The following sections will explore additional insights and highlight key opportunity areas for improvement with individual product lines.
 
 Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](https://public.tableau.com/app/profile/nolan.bellinder/viz/Nike2024PremiumProductSalesAnalysis/SalesDataDash?publish=yes).
